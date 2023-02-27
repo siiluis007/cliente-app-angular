@@ -1,0 +1,53 @@
+<h2 class="content-block">Sales Customer</h2>
+
+<div class="content-block dx-card responsive-paddings">
+
+  <div id="gridSales">
+
+  <dx-data-grid
+    class="dx-card wide-card"
+    [dataSource]="dataSource"
+    [showBorders]="false"
+    [focusedRowEnabled]="true"
+    [focusedRowIndex]="0"
+    [columnAutoWidth]="true"
+    [columnHidingEnabled]="true"
+  >
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager [showPageSizeSelector]="true" [showInfo]="true"></dxo-pager>
+    <dxi-column
+      [width]="100"
+      dataField="id"
+      caption="ID"
+      dataType="number"
+      alignment="center"
+    ></dxi-column>
+    <dxi-column
+      [width]="150"
+      dataField="document"
+      caption="Document"
+      alignment="center"
+    ></dxi-column>
+    <dxi-column
+      [width]="300"
+      dataField="fullName"
+      caption="Full Name"
+      alignment="center"
+    ></dxi-column>
+    <dxi-column
+      [width]="100"
+      dataField="age"
+      caption="Age"
+      dataType="number"
+      alignment="center"
+    ></dxi-column>
+    <dxi-column
+      [width]="100"
+      dataField="dateSale"
+      caption="Date Sale"
+      dataType="number"
+      format="currency"
+      alignment="center"
+    ></dxi-column>
+  </dx-data-grid>
+</div>

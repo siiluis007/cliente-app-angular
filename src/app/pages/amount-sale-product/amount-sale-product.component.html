@@ -1,0 +1,37 @@
+<p>amount-sale-product works!</p>
+<h2 class="content-block">Sales Customer</h2>
+
+<div class="content-block dx-card responsive-paddings">
+
+  <div id="gridSales">
+
+  <dx-data-grid
+    class="dx-card wide-card"
+    [dataSource]="dataSource"
+    [showBorders]="false"
+    [focusedRowEnabled]="true"
+    [focusedRowIndex]="0"
+    [columnAutoWidth]="true"
+    [columnHidingEnabled]="true"
+  >
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager [showPageSizeSelector]="true" [showInfo]="true"></dxo-pager>
+    <dxi-column
+      [width]="150"
+      dataField="product"
+      caption="Product"
+      dataType="number"
+      alignment="center"
+    ></dxi-column>
+    <dxi-column
+      [width]="200"
+      dataField="amountTotal"
+      caption="Amount Total"
+      alignment="center"
+      dataType="number"
+      format="currency"
+
+    ></dxi-column>
+
+  </dx-data-grid>
+</div>

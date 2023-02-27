@@ -1,0 +1,36 @@
+<h2 class="content-block">Stock Products</h2>
+
+<div class="content-block dx-card responsive-paddings">
+  <div class="option">
+    <div>Search by stock</div>
+    <dx-number-box
+      [min]="0"
+      [max]="100"
+      [(value)]="limit"
+      [showSpinButtons]="true"
+      (onValueChanged)="changedLimit($event)"
+      [showClearButton]="true"
+    ></dx-number-box>
+  </div>
+  <div id="gridSales">
+    <dx-data-grid
+      class="dx-card wide-card"
+      [dataSource]="dataSource"
+      [showBorders]="false"
+      [focusedRowEnabled]="true"
+      [focusedRowIndex]="0"
+      [columnAutoWidth]="true"
+      [columnHidingEnabled]="true"
+    >
+      <dxo-paging [pageSize]="10"></dxo-paging>
+      <dxo-pager [showPageSizeSelector]="true" [showInfo]="true"></dxo-pager>
+
+      <dxi-column dataField="id" [width]="80" [hidingPriority]="4">
+      </dxi-column>
+      <dxi-column dataField="name" [width]="350" [hidingPriority]="7">
+      </dxi-column>
+      <dxi-column dataField="quantity" [width]="100" [hidingPriority]="2">
+      </dxi-column>
+    </dx-data-grid>
+  </div>
+</div>

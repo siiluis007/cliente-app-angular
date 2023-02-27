@@ -1,0 +1,27 @@
+<h2 class="content-block">Products</h2>
+<div class="content-block dx-card responsive-paddings">
+  <dx-data-grid
+    class="dx-card wide-card"
+    [dataSource]="dataSource"
+    [showBorders]="false"
+    [focusedRowEnabled]="true"
+    [focusedRowIndex]="0"
+    [columnAutoWidth]="true"
+    [columnHidingEnabled]="true"
+  >
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager [showPageSizeSelector]="true" [showInfo]="true"></dxo-pager>
+
+    <dxi-column dataField="id" [width]="70" [hidingPriority]="2"> </dxi-column>
+    <dxi-column dataField="name" [width]="350" [hidingPriority]="2">
+    </dxi-column>
+
+    <dxi-column
+      dataField="price"
+      caption="Sale Amount"
+      dataType="number"
+      format="currency"
+      alignment="right"
+    ></dxi-column>
+  </dx-data-grid>
+</div>
