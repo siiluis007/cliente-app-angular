@@ -1,46 +1,46 @@
-# Cliente App Angular
+# Angular Client App
 
-Sistema de gestión para el control de productos, inventario y ventas a clientes. Desarrollado con **Angular 15** y **DevExtreme** para una interfaz profesional y funcional.
+Management system for product control, inventory, and customer sales. Developed with **Angular 15** and **DevExtreme** for a professional and functional interface.
 
-## 🚀 Características
+## 🚀 Features
 
-- **Gestión de Productos:** Consulta de precios y niveles de stock.
-- **Ventas por Cliente:** Visualización de ventas realizadas a clientes específicos.
-- **Reportes de Ventas:** Resumen de montos totales por productos.
-- **Interfaz Moderna:** Menú lateral de navegación con componentes DevExtreme.
+- **Product Management:** Consult prices and stock levels.
+- **Customer Sales:** View sales made to specific customers.
+- **Sales Reports:** Summary of total amounts by products.
+- **Modern Interface:** Side navigation menu with DevExtreme components.
 
-## 🛠️ Instalación
+## 🛠️ Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
    git clone https://github.com/siiluis007/cliente-app-angular.git
    ```
-2. Entra al directorio:
+2. Enter the directory:
    ```bash
    cd cliente-app-angular
    ```
-3. Instala las dependencias:
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-## 💻 Desarrollo
+## 💻 Development
 
-Para ejecutar el servidor de desarrollo:
+To run the development server:
 ```bash
 npm start
 ```
-Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias algún archivo.
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-**Nota:** Esta aplicación requiere un backend configurado. Por defecto, intenta conectar con `http://localhost:5171` (configurable en `src/environments/environment.ts`).
+**Note:** This application requires a configured backend. By default, it attempts to connect to `http://localhost:5171` (configurable in `src/environments/environment.ts`).
 
-## 🏗️ Construcción
+## 🏗️ Build
 
-Para generar los archivos de producción:
+To generate production files:
 ```bash
 npm run build
 ```
-Los archivos se guardarán en el directorio `dist/`.
+The files will be saved in the `dist/` directory.
 
 ---
 
