@@ -1,27 +1,49 @@
-# AppName
+# Cliente App Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Sistema de gestión para el control de productos, inventario y ventas a clientes. Desarrollado con **Angular 15** y **DevExtreme** para una interfaz profesional y funcional.
 
-## Development server
+## 🚀 Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Gestión de Productos:** Consulta de precios y niveles de stock.
+- **Ventas por Cliente:** Visualización de ventas realizadas a clientes específicos.
+- **Reportes de Ventas:** Resumen de montos totales por productos.
+- **Interfaz Moderna:** Menú lateral de navegación con componentes DevExtreme.
 
-## Code scaffolding
+## 🛠️ Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/siiluis007/cliente-app-angular.git
+   ```
+2. Entra al directorio:
+   ```bash
+   cd cliente-app-angular
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-## Build
+## 💻 Desarrollo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para ejecutar el servidor de desarrollo:
+```bash
+npm start
+```
+Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias algún archivo.
 
-## Running unit tests
+**Nota:** Esta aplicación requiere un backend configurado. Por defecto, intenta conectar con `http://localhost:5171` (configurable en `src/environments/environment.ts`).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🏗️ Construcción
 
-## Running end-to-end tests
+Para generar los archivos de producción:
+```bash
+npm run build
+```
+Los archivos se guardarán en el directorio `dist/`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<a href="https://buymeacoffee.com/siiluis" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy Me A Coffee">
+</a>
