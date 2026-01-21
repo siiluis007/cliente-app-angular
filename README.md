@@ -1,5 +1,7 @@
 # Angular Client App
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/siiluis)
+
 Management system for product control, inventory, and customer sales. Developed with **Angular 15** and **DevExtreme** for a professional and functional interface.
 
 ## 🚀 Features
@@ -42,7 +44,9 @@ npm run build
 ```
 The files will be saved in the `dist/` directory.
 
----
+## 🧡 Support
+
+If you find this project useful and want to support its development, feel free to buy me a coffee!
 
 <a href="https://buymeacoffee.com/siiluis" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy Me A Coffee">
