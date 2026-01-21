@@ -18,16 +18,10 @@ import {
   DxFormModule,
   DxNumberBoxModule,
 } from 'devextreme-angular';
-import { Test1Component } from './pages/test1/test1.component';
 import { ListPriceProductsComponent } from './pages/list-price-products/list-price-products.component';
 import { StockProductsComponent } from './pages/stock-products/stock-products.component';
 import { SalesCustomerComponent } from './pages/sales-customer/sales-customer.component';
 const routes: Routes = [
-  {
-    path: 'pages/test1',
-    component: Test1Component,
-    canActivate: [AuthGuardService],
-  },
   {
     path: 'price-products',
     component: ListPriceProductsComponent,
@@ -107,7 +101,6 @@ const routes: Routes = [
     HomeComponent,
     ProfileComponent,
     TasksComponent,
-    Test1Component,
     ListPriceProductsComponent,
     StockProductsComponent,
     SalesCustomerComponent,
